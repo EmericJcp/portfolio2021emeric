@@ -111,19 +111,21 @@ html, body {
     /* background-color: blue; */
   }
 
-  @media screen and (max-width: 480px) {
+
+
+  @media (max-width: 768px) {
+    .firstimage>img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+
+  @media (max-width: 480px) {
   
     .firstimage>img {
-      width: 200%;
-      height: 200%;
+      width: 80%;
+      height: 80%;
       background-color: red;
     }
     
-  }
-
-  @media screen and (max-width: 768px) {
-    .firstimage>img {
-      width: 50%;
-      height: 50%;
-    }
   }
