@@ -8,8 +8,7 @@ html, body {
 
   header {
     width: 100%;
-    height: 200%;
-    padding-top: 50px;
+    padding: 50px 0px 50px 0px;
     display: flex;
     justify-content: center;
     color: white;
@@ -17,7 +16,6 @@ html, body {
   }
 
   .containerHeader {
-    background-color: red;
     width: 49%;
     height: 100%;
     display: flex;
@@ -40,12 +38,92 @@ html, body {
 
   .containerParagraph {
     width: 90%;
-    height: 390px;
     font-size: 18px;
     text-align: justify;
     align-self: flex-start;
+    margin: 0%;
+    padding-bottom: 200px;
   }
 
   .containerParagraph>h2 {
     font-size: 110px;
+    margin: 10% 0% 0% 0%;
+    padding: 0%;
+  }
+
+  .transitioncomeeproject {
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    background-color: #16161d;
+  }
+
+  .transitioncomeeproject>h3 {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .containerLogoComee {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .containerLogoComee>img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .transitioncomeeproject>svg {
+    margin-top: -55px;
+    padding-top: 100px;
+    border: 0px;
+    background-color: #16161d;
+  }
+
+  .comee {
+    width: 100%;
+    height: 100%;
+    background-color: #E7963E;
+  }
+
+  .firstimage {
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    background: #E7963E;
+  }
+
+  .firstimage>img {
+    width: 200%;
+    height: 200%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -25%;
+    /* background-color: blue; */
+  }
+
+  @media screen and (max-width: 480px) {
+  
+    .firstimage>img {
+      width: 200%;
+      height: 200%;
+      background-color: red;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .firstimage>img {
+      width: 50%;
+      height: 50%;
+    }
   }
